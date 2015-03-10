@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Allday</title>
+</head>
+<body ng-app="Allday">
+<div class="container-fluid">
+    <div class="row">
+        <div col-sm-3 col-md-8 sidebar>
+            <li ng-repeat="user in users">{{scope.user.name}}</li>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="node_modules/angular/angular.js"></script>
+<!--<script src="node_modules/angular/angular.min.js"></script>-->
+<script src="script.js"></script>
+</html>
